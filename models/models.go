@@ -25,19 +25,19 @@ THE SOFTWARE.
 package models
 
 import (
-	"xsec-evil-ips/settings"
 	"xsec-evil-ips/logger"
+	"xsec-evil-ips/settings"
 
 	"github.com/go-xorm/xorm"
-	"github.com/go-xorm/core"
 	"github.com/patrickmn/go-cache"
+	"xorm.io/core"
 
 	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/lib/pq"
 	_ "github.com/mattn/go-sqlite3"
 
-	"path/filepath"
 	"fmt"
+	"path/filepath"
 )
 
 var (
